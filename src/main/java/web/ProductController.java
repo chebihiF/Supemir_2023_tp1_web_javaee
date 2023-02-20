@@ -29,7 +29,18 @@ public class ProductController extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
+        String label = req.getParameter("label");
+        double price = Double.parseDouble(req.getParameter("price"));
+        int quantity = Integer.parseInt(req.getParameter("quantity"));
+        Product product = new Product(10L,label,price,quantity);
+        try {
+            metier.addproduct(product);
+            List<Product> products = metier.getProducts();
+            req.setAttribute("products",products);
+            req.getRequestDispatcher("WEB-INF/views/products.jsp").forward(req,resp);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override

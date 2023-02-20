@@ -15,19 +15,39 @@
           href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" />
 </head>
 <body>
-    <table class="table table-hover">
-        <tr>
-            <th>Label</th>
-            <th>Price</th>
-            <th>Quantity</th>
-        </tr>
-        <c:forEach items="${products}" var="p">
+    <div class="container-md mt-3">
+        <form method="post" action="products">
+            <div class="mb-3">
+                <label for="labelexp" class="form-label">Label</label>
+                <input type="text" class="form-control" name="label" id="labelexp">
+            </div>
+            <div class="mb-3">
+                <label for="priceexp" class="form-label">Price</label>
+                <input type="number" class="form-control" name="price" id="priceexp">
+            </div>
+            <div class="mb-3">
+                <label for="quantityexp" class="form-label">Quantity</label>
+                <input type="text" class="form-control" name="quantity" id="quantityexp">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save Product</button>
+        </form>
+
+        <table class="table table-hover">
             <tr>
-                <td>${p.label}</td>
-                <td>${p.price}</td>
-                <td>${p.quantity}</td>
+                <th>Label</th>
+                <th>Price</th>
+                <th>Quantity</th>
             </tr>
-        </c:forEach>
-    </table>
+            <c:forEach items="${products}" var="p">
+                <tr>
+                    <td>${p.label}</td>
+                    <td>${p.price}</td>
+                    <td>${p.quantity}</td>
+                </tr>
+            </c:forEach>
+        </table>
+    </div>
+
 </body>
 </html>
