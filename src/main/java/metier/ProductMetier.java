@@ -1,2 +1,4 @@
-package metier;public class ProductMetier {
+package metier;
+
+public class ProductMetier {
 }

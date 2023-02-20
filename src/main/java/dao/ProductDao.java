@@ -1,2 +1,4 @@
-package dao;public class ProductDao {
+package dao;
+
+public class ProductDao {
 }
