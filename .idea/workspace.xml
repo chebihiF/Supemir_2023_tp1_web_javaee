@@ -9,10 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f80571-21e5-4c86-a1e8-7e39a5178a25" name="Changes" comment="update products.jsp">
+    <list default="true" id="28f80571-21e5-4c86-a1e8-7e39a5178a25" name="Changes" comment="update web.xml to version 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/metier/ProductMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metier/ProductMetier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676883958369</updated>
       <workItem from="1676883960196" duration="6050000" />
-      <workItem from="1676896435280" duration="1369000" />
+      <workItem from="1676896435280" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="add Product.java">
       <created>1676885360333</created>
@@ -214,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676897243028</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update web.xml to version 4">
+      <created>1676897922562</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676897922562</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +237,7 @@
     <MESSAGE value="add ProductController.java v1" />
     <MESSAGE value="add products.jsp" />
     <MESSAGE value="update products.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="update products.jsp" />
+    <MESSAGE value="update web.xml to version 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="update web.xml to version 4" />
   </component>
 </project>

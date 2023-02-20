@@ -14,7 +14,13 @@ import java.util.List;
 @WebServlet("/products")
 public class ProductController extends HttpServlet {
 
-    private ProductMetier metier = new ProductMetier();
+    private ProductMetier metier;
+
+    @Override
+    public void init() throws ServletException {
+        metier = new ProductMetier();
+        metier.initProducts();
+    }
 
     @Override
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

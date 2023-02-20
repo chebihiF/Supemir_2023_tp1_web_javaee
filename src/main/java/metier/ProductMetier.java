@@ -9,6 +9,10 @@ public class ProductMetier {
 
     private ProductDao dao = new ProductDao();
 
+    public void initProducts(){
+        dao.initProducts();
+    }
+
     public Product addproduct(Product product) throws Exception{
         if(product.getQuantity()<0 || product.getLabel().trim().equals("") || product.getPrice() <0)
             throw new RuntimeException("cannot add this product");

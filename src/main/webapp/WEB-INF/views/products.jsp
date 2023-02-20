@@ -10,9 +10,12 @@
 <html>
 <head>
     <title>List of Products</title>
+    <script src="webjars/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+          href="webjars/bootstrap/5.2.3/css/bootstrap.min.css" />
 </head>
 <body>
-    <table>
+    <table class="table table-hover">
         <tr>
             <th>Label</th>
             <th>Price</th>
