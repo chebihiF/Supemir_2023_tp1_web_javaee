@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f80571-21e5-4c86-a1e8-7e39a5178a25" name="Changes" comment="add Product.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="28f80571-21e5-4c86-a1e8-7e39a5178a25" name="Changes" comment="add ProductDao.java">
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/metier/ProductMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metier/ProductMetier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676883958369</updated>
-      <workItem from="1676883960196" duration="2338000" />
+      <workItem from="1676883960196" duration="3145000" />
     </task>
     <task id="LOCAL-00001" summary="add Product.java">
       <created>1676885360333</created>
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676885360333</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add ProductDao.java">
+      <created>1676886323057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676886323057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Product.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Product.java" />
+    <MESSAGE value="add ProductDao.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ProductDao.java" />
   </component>
 </project>
