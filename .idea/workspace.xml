@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f80571-21e5-4c86-a1e8-7e39a5178a25" name="Changes" comment="add ProductMetier.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/ProductController.java" afterDir="false" />
+    <list default="true" id="28f80571-21e5-4c86-a1e8-7e39a5178a25" name="Changes" comment="add ProductController.java v1">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -23,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -165,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676883958369</updated>
-      <workItem from="1676883960196" duration="4802000" />
+      <workItem from="1676883960196" duration="5675000" />
     </task>
     <task id="LOCAL-00001" summary="add Product.java">
       <created>1676885360333</created>
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676889150419</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add ProductController.java v1">
+      <created>1676890544607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676890544607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +206,7 @@
     <MESSAGE value="add Product.java" />
     <MESSAGE value="add ProductDao.java" />
     <MESSAGE value="add ProductMetier.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ProductMetier.java" />
+    <MESSAGE value="add ProductController.java v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ProductController.java v1" />
   </component>
 </project>
