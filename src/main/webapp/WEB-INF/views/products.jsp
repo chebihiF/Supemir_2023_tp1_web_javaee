@@ -1,5 +1,4 @@
-<%@ page import="java.util.List" %>
-<%@ page import="entities.Product" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: chebihifaycal
   Date: 20/2/2023

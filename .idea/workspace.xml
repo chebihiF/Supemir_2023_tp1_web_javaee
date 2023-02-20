@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f80571-21e5-4c86-a1e8-7e39a5178a25" name="Changes" comment="add ProductController.java v1">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" afterDir="false" />
+    <list default="true" id="28f80571-21e5-4c86-a1e8-7e39a5178a25" name="Changes" comment="add products.jsp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -166,7 +168,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676883958369</updated>
-      <workItem from="1676883960196" duration="5675000" />
+      <workItem from="1676883960196" duration="6050000" />
+      <workItem from="1676896435280" duration="792000" />
     </task>
     <task id="LOCAL-00001" summary="add Product.java">
       <created>1676885360333</created>
@@ -196,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676890544607</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add products.jsp">
+      <created>1676891454446</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676891454446</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +217,7 @@
     <MESSAGE value="add ProductDao.java" />
     <MESSAGE value="add ProductMetier.java" />
     <MESSAGE value="add ProductController.java v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ProductController.java v1" />
+    <MESSAGE value="add products.jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add products.jsp" />
   </component>
 </project>
